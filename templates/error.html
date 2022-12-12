@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+  
+    <title>Error</title>
+
+    <!-- style css -->
+    <link rel="stylesheet" href="/static/css/style.css">
+
+</head>
+    
+<body>
+    <div class="form-wrapper">
+        <h1>Error</h1>
+
+        {% if error %}                   
+        <div class="dialogbox">
+            <div class="body">
+              <span class="tip tip-left"></span>
+              <div class="message">
+                <span>{{ error }}</span>
+              </div>
+            </div>
+          </div>       
+        {% endif %}
+        
+    </div>
+</body>
+</html>

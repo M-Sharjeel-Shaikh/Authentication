@@ -1,0 +1,44 @@
+This is User Authentication Website (Dynamic)
+Develope With : Django Frame Work
+
+Python version = 3.7
+Django version = 4
+
+==================== Functionality=============
+
+   Create Account with Email Validataion.
+   Login With Authentic credential.
+   Logout successfully.
+   forget Password With Email Validataion.
+   Prevent User to access home page without login.  
+   After login if user type and want to go with this route --> (home/login) will redirect to home not login page.
+   After login if user type and want to go with this route --> (home/signup) will redirect to home not Sign UP page.
+
+----> Sign Up Form
+----> Welcome page
+----> Login page
+----> logOut Current User
+
+Created by : M Sharjeel Shaikh
+
+==================== Instruction To Run Website =============
+---> 1.Download Python.
+---> 2.Pip install Django in cmd.
+---> 3.Open folder in Cmd where you kept it folder.
+---> 4.Pass Command "python manage.py runserver".
+---> 5.Open Browser and type localhost(port: 8000)
+---> 6.To Open admin panel type( "localhost:8000\admin"   )
+---> 7.Django admin panel appear and then enter username and password 
+       copy from below.
+
+==================== Admin Info (username , password) =============
+Username : admin
+Password : sharjeel
+
+==================== Custom User Info For Test (username , password) =============
+
+Username : test
+Password : user
+
+==================== Warning =============
+Note : In Setting.py DEBUg = False for production.
